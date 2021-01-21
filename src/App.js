@@ -1,7 +1,12 @@
+import GlobalStyle from './styledComponents/GlobalStyle';
 
 const App = () => {
   return (
-    <p>Hello World</p>
+    <div>
+      <GlobalStyle />
+      <p>Hello World</p>
+    </div>
+    
   );
 }
 
