@@ -1,12 +1,12 @@
 import GlobalStyle from './styledComponents/GlobalStyle';
+import PortfolioPage from './styledComponents/PortfolioPage'
 
 const App = () => {
   return (
-    <div>
+    <PortfolioPage>
       <GlobalStyle />
       <p>Hello World</p>
-    </div>
-    
+    </PortfolioPage>
   );
 }
 
