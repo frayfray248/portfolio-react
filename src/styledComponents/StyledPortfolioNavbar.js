@@ -5,6 +5,7 @@ const StyledPortfolioNavbar = styled(PortfolioNavbar)`
     background-color: black;
     color: white;
     font-family: monaco, Consolas, "Lucida Console", monospace;
+    margin-bottom : auto;
 `
 
 export default StyledPortfolioNavbar;
