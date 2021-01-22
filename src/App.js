@@ -23,6 +23,7 @@ const App = () => {
         <Switch>
           <Route exact path="/"> <Landing /> </Route>
           <Route path="/about"> <About /></Route>
+          <Route><h1 class='text-center' style={{color: 'white'}}>Oops! Page not found!</h1></Route>
         </Switch>
 
         <Footer />
