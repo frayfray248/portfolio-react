@@ -10,6 +10,10 @@ const GlobalStyle = createGlobalStyle`
         height: 100%;
     }
 
+    .my-box-shadow {
+        box-shadow: 5px 5px 4px black;
+    }
+
 `
 
 export default GlobalStyle;
