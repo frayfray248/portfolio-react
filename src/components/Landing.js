@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import profilePic from '../res/profilePic.png';
 import ProfilePicture from '../styledComponents/StyledProfilePicture';
 import Hr from '../styledComponents/StyledHr';
+import Button from '../styledComponents/StyledButton';
 
 const Landing = ({ className }) => (
     <div className={`${className}`}>
@@ -25,6 +26,7 @@ const Landing = ({ className }) => (
                         <li>Self-Starter</li>
                     </ul>
                     <Hr className='my-box-shadow'/>
+                    <Button href='about'><i class="bi bi-file-earmark-person"></i> About Fraser </Button>
                 </Col>
             </Row>
         </Container>
