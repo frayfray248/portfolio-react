@@ -9,6 +9,7 @@ const StyledProfilePicture = styled(ProfilePicture)`
     margin : 10px;
     border: 4px solid white;
     border-radius: 10px;
+    ${props => props.float ? 'float:left' : ''}
 `
 
 export default StyledProfilePicture;
