@@ -21,10 +21,10 @@ const PortfolioNavbar = ({className}) => {
 
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="m-auto">
-                    <NavLink href="/"><i class="bi bi-house-door"></i> Home</NavLink>
-                    <NavLink href="/about"><i class="bi bi-file-earmark-person"></i> About</NavLink>
-                    <NavLink href="/portfolio"><i class="bi bi-code-square"></i> Portfolio</NavLink>
-                    <NavLink href="/contact"><i class="bi bi-telephone"></i> Contact</NavLink>
+                    <NavLink exact activeClassName="active" to="/"><i class="bi bi-house-door p-1"></i>Home</NavLink>
+                    <NavLink exact activeClassName="active" to="/about"><i class="bi bi-file-earmark-person p-1"></i>About</NavLink>
+                    <NavLink exact activeClassName="active" to="/portfolio"><i class="bi bi-code-square p-1"></i>Portfolio</NavLink>
+                    <NavLink exact activeClassName="active" to="/contact"><i class="bi bi-telephone p-1"></i>Contact</NavLink>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

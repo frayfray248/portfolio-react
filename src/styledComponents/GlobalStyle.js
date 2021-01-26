@@ -22,6 +22,11 @@ const GlobalStyle = createGlobalStyle`
         box-shadow: 5px 5px 4px black;
     }
 
+    .active {
+        font-weight: bold;
+        color: orange!important;
+    }
+
 `
 
 export default GlobalStyle;
