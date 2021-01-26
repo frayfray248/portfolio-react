@@ -9,6 +9,10 @@ const GlobalStyle = createGlobalStyle`
     a {
         color: orange;
     }
+    
+    a:hover {
+        color: purple;
+    }
 
     #root {
         height: 100%;
