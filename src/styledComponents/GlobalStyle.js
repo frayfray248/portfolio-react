@@ -6,6 +6,10 @@ const GlobalStyle = createGlobalStyle`
         height: 100%;  
     }
 
+    a {
+        color: orange;
+    }
+
     #root {
         height: 100%;
     }
