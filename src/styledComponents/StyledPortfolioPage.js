@@ -7,7 +7,8 @@ const PortfolioPage = ({className, children}) => (
 )
 
 const StyledPortfolioPage = styled(PortfolioPage)`
-    height: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
     background: rgb(74,74,74);
     background: radial-gradient(circle, rgb(71, 71, 71) 20%, rgba(38,38,38,1) 60%, rgb(15, 15, 15) 100%);
 `

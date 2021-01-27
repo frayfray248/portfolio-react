@@ -2,9 +2,15 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
 
-    html, body {
-        height: 100%;  
+    html {
+        height: -webkit-fill-available;  
     }
+
+    body {
+        min-height: 100vh;
+        min-height: -webkit-fill-available;
+    }
+
 
     a {
         color: orange;
