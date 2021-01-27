@@ -20,14 +20,14 @@ const Portfolio = () => (
                     {`
                         The Three Trees Calendar is a class/workshop manager and calendar for WordPress.
                         Its purposal was submitted by Victoria companies Three Trees Technical and Oculus Design to
-                        the Camosun College 2020 Capstone semester. I worked on it in an Agile team as front and back end developer, and technical writer.
-                        I solely built its Node JS Express REST API as well wrote several of its documentation such as the charter, user manual, and team bios.
-                        We successfully presented our project results to the Camosun College 2020 Capstone Simposium.
+                        the Camosun College 2020 Capstone semester. Fraser worked on it in an Agile team as full-stack developer and technical writer.
+                        He solely built its Node JS Express REST API as well wrote several of its documentation such as the charter, user manual, and team bios.
+                        His team successfully presented the project results to the Camosun College 2020 Capstone Simposium.
                     `}
                     projectURL={'http://capstone.camosun.ca/archived-capstone/June2020/public/TeamPages/Team%20Three%20Trees.php'}
                     links={[
                         {
-                            name : 'Capstone',
+                            name : 'Capstone Page',
                             url : 'http://capstone.camosun.ca/archived-capstone/June2020/public/ICS.php'
                         }
                     ]}

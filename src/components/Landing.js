@@ -21,9 +21,9 @@ const Landing = ({ className }) => (
                     <Hr className='my-box-shadow'/>
                     <h1>FRASER B. MACALLUM</h1>
                     <ul>
-                        <li>Node JS Web developer</li>
+                        <li>Node JS developer</li>
                         <li>Technical writer</li>
-                        <li>Self-Starter</li>
+                        <li>Self-starter</li>
                     </ul>
                     <Hr className='my-box-shadow'/>
                     <Button href='about'><i class="bi bi-file-earmark-person"></i> About Fraser </Button>
