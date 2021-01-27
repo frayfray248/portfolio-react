@@ -24,6 +24,7 @@ const PortfolioNavbar = ({className}) => {
                     <NavLink exact activeClassName="active" to="/"><i class="bi bi-house-door p-1"></i>Home</NavLink>
                     <NavLink exact activeClassName="active" to="/about"><i class="bi bi-file-earmark-person p-1"></i>About</NavLink>
                     <NavLink exact activeClassName="active" to="/portfolio"><i class="bi bi-code-square p-1"></i>Portfolio</NavLink>
+                    <NavLink exact activeClassName="active" to="/referrals"><i class="bi bi-person-check p-1"></i>Referrals</NavLink>
                     <NavLink exact activeClassName="active" to="/contact"><i class="bi bi-telephone p-1"></i>Contact</NavLink>
                 </Nav>
             </Navbar.Collapse>
