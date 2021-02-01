@@ -26,7 +26,7 @@ const Landing = ({ className }) => (
                         <li>Self-starter</li>
                     </ul>
                     <Hr className='my-box-shadow'/>
-                    <Button href='about'><i class="bi bi-file-earmark-person"></i> About Fraser </Button>
+                    <Button href='about'><i className="bi bi-file-earmark-person"></i> About Fraser </Button>
                 </Col>
             </Row>
         </Container>

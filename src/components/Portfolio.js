@@ -1,12 +1,7 @@
 import Container from '../styledComponents/StyledContainer';
-import Hr from '../styledComponents/StyledHr';
-import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Image from '../styledComponents/StyledProfilePicture';
 import ThreeTreesCalendarProfilePic from '../res/ThreeTreesCalendarProfilePic.png';
-import ThreeTreesDashboard from '../res/ThreeTreesDashboard.png';
-import ThreeTreesEventsUIExample from '../res/ThreeTreesEventsUIExample.png';
 import PortfolioItem from '../components/PortfolioItem';
 
 const Portfolio = () => (

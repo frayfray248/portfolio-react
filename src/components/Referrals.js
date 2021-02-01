@@ -1,8 +1,6 @@
 import Container from '../styledComponents/StyledContainer';
 import Hr from '../styledComponents/StyledHr';
 import Button from '../styledComponents/StyledButton';
-import Icon from '../styledComponents/StyledIcon';
-import Table from 'react-bootstrap/Table';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
