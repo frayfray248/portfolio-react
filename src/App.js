@@ -1,8 +1,7 @@
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import GlobalStyle from './styledComponents/GlobalStyle';
 import PortfolioPage from './styledComponents/StyledPortfolioPage'
@@ -12,6 +11,7 @@ import Landing from './styledComponents/StyledLanding';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Referrals from './components/Referrals';
 
 const App = () => {
   return (
@@ -27,6 +27,7 @@ const App = () => {
           <Route path="/about"> <About /></Route>
           <Route path="/portfolio"> <Portfolio /></Route>
           <Route path="/contact"> <Contact /></Route>
+          <Route path="/referrals"> <Referrals /></Route>
           <Route><h1 class='text-center' style={{color: 'white'}}>Oops! Page not found!</h1></Route>
         </Switch>
 
