@@ -13,7 +13,7 @@ const PortfolioItem = ({ title, profilePic, description, projectURL, links }) =>
                 <Image src={profilePic} float />
                 <p>{description}</p>
                 <br />
-                <Button href={projectURL}>Project Page</Button>
+                {projectURL? <Button href={projectURL}>Project Page</Button> : ''}
                 {links? (links.map((link, index) => (
                     <Button id={index} href={link.url}>{link.name}</Button>
                 ))) : '' }
