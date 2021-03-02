@@ -4,6 +4,8 @@ import Col from 'react-bootstrap/Col';
 import ThreeTreesCalendarProfilePic from '../res/ThreeTreesCalendarProfilePic.png';
 import RealmCraftProfilePic from '../res/RealmCraftRPGProfilePic.png';
 import PortfolioItem from '../components/PortfolioItem';
+import Hr from '../styledComponents/StyledHr';
+import Button from '../styledComponents/StyledButton';
 
 const Portfolio = () => (
     <Container>
@@ -47,6 +49,18 @@ const Portfolio = () => (
                         }
                     ]}
                 />
+                <h1>Personal Project Demonstrations</h1>
+                <Hr bgColor={'black'} />
+                    <h3>Socket Chat</h3>
+                    <p>A simple chat application that allows users to pick a username and post messages to a public chat board.</p>
+                    <Button href='https://github.com/frayfray248/socket-chat-app'>Repo</Button><Button href='https://frayfraychat.herokuapp.com/'>Open App</Button>
+                    <br /><br />
+                    <h3>Users System API</h3>
+                    <p>A REST API that creates user accounts, signs in users using JWT tokens, and deletes users.</p>
+                    <Button href='https://github.com/frayfray248/users-system-api'>Repo</Button>
+                    <Button href='https://frayfray-users-system-api.herokuapp.com/api-docs/'>API Docs</Button>
+                    <br /><br />
+                <Hr bgColor={'black'} />
             </Col>
         </Row>
     </Container>
