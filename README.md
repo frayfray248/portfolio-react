@@ -1,3 +1,3 @@
 # Description
 
-This is a react app which serves as my professional portfolio. The deployment of this app can be found at https://master.d1qxdy40ok86fj.amplifyapp.com/
+My first eportfolio for showcasing my projects and skills. My current portfolio can be found here: https://github.com/frayfray248/fraser-portfolio
